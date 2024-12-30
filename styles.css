@@ -323,7 +323,8 @@ p {
 .hero__text {
     font-size: var(--h4-size);
     margin-bottom: var(--spacing-xl);
-    opacity: 0.9;
+    opacity: 2.5;
+    color: #1e40af;
 }
 
 .hero__buttons {
