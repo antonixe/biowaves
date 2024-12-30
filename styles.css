@@ -134,6 +134,23 @@ p {
     box-sizing: border-box;
 }
 
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background);
+    box-shadow: var(--shadow-sm);
+    z-index: 1000;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-md) 1rem;
+    box-sizing: border-box;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
