@@ -147,7 +147,7 @@ p {
 .logo-container {
     display: flex;
     align-items: center;
-    max-width: 200px;
+    max-width: 150px;
     padding: 8px;
 }
 
