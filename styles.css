@@ -277,7 +277,7 @@ p {
         display: flex;
     }
 
-    /* Hide the nav links initially */
+    /* Ensure nav-menu is displayed as flex */
     .nav-menu {
         display: flex;
     }
@@ -290,7 +290,7 @@ p {
     padding-top: 80px; /* Height of the fixed header */
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
                 url('/api/placeholder/1920/1080') center/cover no-repeat;
     color: var(--text-white);
 }
@@ -874,6 +874,8 @@ p {
 }
 
 /* Responsive Media Queries */
+
+/* Tablet and below */
 @media (max-width: 1200px) {
     .products__grid {
         flex-wrap: wrap;
@@ -885,6 +887,7 @@ p {
     }
 }
 
+/* Medium Devices */
 @media (max-width: 992px) {
     .contact__info {
         grid-template-columns: 1fr;
@@ -896,6 +899,7 @@ p {
     }
 }
 
+/* Mobile Devices */
 @media (max-width: 768px) {
     .nav-menu {
         top: 80px; /* Height of the header */
@@ -924,6 +928,7 @@ p {
     }
 }
 
+/* Small Mobile Devices */
 @media (max-width: 480px) {
     :root {
         --h1-size: 2.5rem;
