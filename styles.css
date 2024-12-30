@@ -167,24 +167,31 @@ p {
     max-width: 1200px;
 }
 
+/* Logo Container */
 .logo-container {
     display: flex;
     align-items: center;
-    padding: 8px;
+    padding: 5px; /* Adjust as needed */
 }
 
+/* Logo Wrapper */
 .logo-wrapper {
     background: #2B2B5E;
     border-radius: var(--radius-md);
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: transform 0.3s ease;
-    padding: 5px 10px;
+    padding: 5px; /* Removed extra horizontal padding */
+    display: flex; /* Center the logo image within the wrapper */
+    align-items: center;
+    justify-content: center;
 }
 
+/* Logo Image */
 .logo-img {
-    width: 100%;
-    height: auto;
+    max-width: 150px; /* Set a maximum width */
+    width: 100%; /* Allows the image to scale down responsively */
+    height: auto; /* Maintains aspect ratio */
     display: block;
     transition: transform 0.3s ease;
 }
