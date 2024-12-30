@@ -120,20 +120,6 @@ p {
 }
 
 /* Header & Navigation */
-.header {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    max-width: 1200px;
-    background-color: var(--background);
-    box-shadow: var(--shadow-sm);
-    z-index: 1000;
-    padding: var(--spacing-md) 1rem;
-    box-sizing: border-box;
-}
-
 .header-wrapper {
     position: fixed;
     top: 0;
@@ -149,6 +135,7 @@ p {
     margin: 0 auto;
     padding: var(--spacing-md) 1rem;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .nav {
